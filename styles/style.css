@@ -1,0 +1,115 @@
+/* ----------------------------
+            fonts
+---------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Rajdhani:wght@400;600&family=Rubik&display=swap');
+
+/* ----------------------------
+        common styles
+---------------------------- */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ----------------------------
+      header section styles
+---------------------------- */
+.header-part {
+    display: flex;
+    margin: 87px 120px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head-logo a {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+    color: #3A3A3A;
+}
+
+.head-nav ul {
+    display: flex;
+}
+
+.head-nav ul li {
+    list-style: none;
+    padding-left: 34px;
+}
+
+.head-nav ul li a {
+    text-decoration: none;
+    color: #3A3A3A;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.head-nav ul li a:hover {
+    color: #E02C6D;
+    border-bottom: 1px solid #E02C6D;
+    transition: 0.5s all ease-in-out;
+}
+
+/* ----------------------------
+      main section styles
+---------------------------- */
+/* main section common styles */
+.container {
+    margin: 0 120px;
+}
+
+/* banner part styles */
+.banner-full {
+    display: flex;
+    margin-top: 50px;
+    height: 585px;
+    align-items: center;
+}
+
+.banner-details {
+    width: 50%;
+}
+
+.banner-details h1 {
+    font-size: 52px;
+    line-height: 72px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #3A3A3A;
+}
+
+.banner-details p {
+    font-size: 16px;
+    font-weight: 600;
+    padding-right: 250px;
+    padding-bottom: 16px;
+    color: #3A3A3A;
+}
+
+.banner-details a {
+    text-decoration: none;
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    padding: 10px 24px;
+    border-radius: 41px;
+}
+
+.fa-arrow-right {
+    margin-left: 8px;
+}
+
+.banner-photo {
+    width: 50%;
+    background-image: url(../img/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 475px;
+    padding: 40px 0;
+}
+
+.banner-photo img {
+    width: 440px;
+    height: 414px;
+    margin: 10px 0 0 220px;
+}
