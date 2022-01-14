@@ -112,4 +112,9 @@ body {
     width: 440px;
     height: 414px;
     margin: 10px 0 0 220px;
+    transition: 3s all ease-in-out;
+}
+
+.banner-photo:hover img {
+    transform: rotate(-360deg);  
 }
