@@ -352,4 +352,5 @@ body {
 
 .footer-contact i:hover {
     background-color: #03C6C7;
+    transition: 0.5s all ease-in;
 }
